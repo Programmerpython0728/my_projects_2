@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+
+# created by virtualenv automatically
+*
+
+SECRET_KEY = 'django-insecure-@dthg&tv@31_5f3_lc&s%k#$+60ju-@9l3ra7lo^7l+*0y=cjr'
