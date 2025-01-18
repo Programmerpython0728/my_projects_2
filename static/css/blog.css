@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: helvetica, sans-serif;
-    background-color: #2e2e36;
+    background-color: #5f5f79;
     color: white;
 }
 
@@ -55,7 +55,7 @@ p.date {
 label {
     float: left;
     clear: both;
-    color: #333;
+    color: #ffffff !important;
     margin-bottom: 4px;
 }
 
@@ -87,17 +87,23 @@ input[type=submit] {
 
 /* comments */
 .comment {
+    margin:8px;
     padding: 10px;
+    /*background-color: ;*/
+    border: 2px solid #E2E0D4;
+    border-radius: 15px;
+    color: #000;
+    /*box-shadow: 10px 10px 10px rgba(135, 165, 218, 0.74)*/
 }
 
-.comment:nth-child(even) {
-    background: #efefef;
-}
+/*.comment:nth-child(even) {*/
+/*    background: #efefef;*/
+/*}*/
 
 .comment .info {
     font-weight: bold;
     font-size: 12px;
-    color: #fc0202;
+    /*color: #fc0202;*/
 }
 .post {
     border: 1px solid #626273;
@@ -107,4 +113,7 @@ input[type=submit] {
 }
 .post:hover {
     background-color: #51515b;
+}
+p {
+    color: white;
 }
